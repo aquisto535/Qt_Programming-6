@@ -37,5 +37,57 @@
 *.out
 *.app
 
-# debug information files
+# Debug information files
 *.dwo
+
+# --------------------------
+# Qt Specific Ignores
+# --------------------------
+# Qt generated makefiles
+Makefile*
+
+# Qt Creator user settings (Do not commit these)
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user*
+*.qmake.stash
+
+# Qt Meta-Object Compiler (MOC) generated files
+moc_*.cpp
+moc_*.h
+
+# Qt User Interface Compiler (UIC) generated files
+ui_*.h
+
+# Qt Resource Compiler (RCC) generated files
+qrc_*.cpp
+
+# Qt Build directories
+build/
+debug/
+release/
+bin/
+*.build
+
+# --------------------------
+# IDE & OS Specific Ignores
+# --------------------------
+# VS Code
+.vscode/
+# !.vscode/settings.json # Uncomment if you want to share project settings
+# !.vscode/tasks.json
+# !.vscode/launch.json
+
+# Visual Studio
+.vs/
+
+# Cursor
+.cursor/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
